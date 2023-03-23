@@ -22,9 +22,9 @@ if __name__ == '__main__':
 
 
 
-def save_data_as_json(data):
-    with open('data.json', 'w') as json_file:
-        json.dump(data, json_file)
+#def save_data_as_json(data):
+    #with open('data.json', 'w') as json_file:
+        #json.dump(data, json_file)
 
-data = fetch_external_data()
-save_data_as_json(data)
+#data = fetch_external_data()
+#save_data_as_json(data)
